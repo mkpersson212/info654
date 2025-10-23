@@ -1,0 +1,158 @@
+body {
+    background-color: #808080; 
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    }
+
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ba28ba;
+}
+a:hover {
+    color: #80ffd4;
+}
+a:active {
+    color: #0000ff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px;
+}
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.navbar a:hover {
+  background-color: #525151;
+}    
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+    font-style: italic;
+}
+h2 {
+    font-weight: bold;
+    color: #4600e9;
+}
+h3 {
+    font-weight: bold;  
+    color: #80ffd4;
+    text-decoration: underline;            
+}
+p {        
+    color: #ffffff;
+  
+}
+a{
+    text-decoration: none;
+}
+
+p.greenparagraph {
+    color: #014b01;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #d3d3d3;
+}
+
+ol{
+    color: #ffffff;
+}
+ul{
+    color: #cacaca; 
+}
+
+.image_container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+}
+
+.hamster_row_1 {
+  display: flex;
+  justify-content: center;
+}
+.hamster_row_1 img {
+  width: 200px;
+  height: auto;
+}
+
+.hamster_row_2 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.hamster_row_2 img {
+  width: auto;
+  height: auto;
+}
+
+.hamster_row_3 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.hamster_row_3 img {
+  width: auto;
+  height: auto;
+}
+
+.hamster_row_4 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.hamster_row_4 img {
+  width: auto;
+  height: auto;
+}
+
+#disclaimer {
+    font-size: small;
+    color: #d3d3d3;
+}
+#disclaimer a:link{
+    color: #d3d3d3;
+}
+#disclaimer a:visited {
+    color: #87cefa;
+}
+#disclaimer a:hover {
+    color: #ffb6c1;
+}
+#disclaimer_message {
+    font-size: small;
+    padding: 0px;
+    color: #808080; /*this is a hidden message for my girlfriend*/
+    margin: 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#ffffff;
+    border: 2px solid #eeeeee;
+    background-color: #333333;
+    padding: 2px;
+}
+footer img{
+  max-width: 200px;
+  max-height: 80px;
+}
