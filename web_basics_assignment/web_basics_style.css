@@ -74,8 +74,15 @@ ol{
     color: #ffffff;
 }
 ul{
-    color: #cacaca; 
+    color: #ffffff; 
+    a {
+        text-decoration: underline;
+    }
 }
+/*This CSS isn't used, but I wanted to include it to show I would make a class to change just the headings in my meme list on index.html, instead of inline.
+li.headings{
+  font-weight: bold;
+}*/
 
 .image_container img{
   display: flex;
